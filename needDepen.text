@@ -1,0 +1,10 @@
+//搭建项目需要的安装依赖
+
+1."ts-node": "^8.6.2" 简单的说就是它提供了TypeScript的运行环境，让我们免去了麻烦的编译这一步骤。最简单的例子，在注册ts-node之后，我们就可以直接加载并运行ts文件
+
+    require('ts-node').register();
+
+    // 这样就能直接加载并运行 ./ts-code.ts...
+    require('./ts-code');
+
+2. "@nuxt/typescript-build": "^0.6.0",
